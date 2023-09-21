@@ -32,8 +32,8 @@ bool ModuleWindow::Init()
 		Uint32 flags = SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN;
 
 		//Use OpenGL 2.1
-		SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 2);
-		SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
+		SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
+		SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
 
 		if(WIN_FULLSCREEN == true)
 		{
@@ -68,6 +68,11 @@ bool ModuleWindow::Init()
 			screen_surface = SDL_GetWindowSurface(window);
 		}
 	}
+
+	//Title Init
+	char title[80];
+	sprintf_s(title, "Nerfed Engine");
+	SetTitle(title);
 
 	return ret;
 }

@@ -37,6 +37,9 @@
     <Filter Include="Externals\MathGeoLib\Time">
       <UniqueIdentifier>{1d07a7ae-7541-4ebe-8134-5a5b5b6088ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sources\Imgui">
+      <UniqueIdentifier>{d41c34ea-51e3-49b3-9285-3a9fb77ab22a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Module.h">
@@ -255,6 +258,33 @@
     <ClInclude Include="glmath.h">
       <Filter>Externals</Filter>
     </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\backends\imgui_impl_sdl.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Sources\Imgui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModuleCamera3D.cpp">
@@ -388,6 +418,27 @@
     </ClCompile>
     <ClCompile Include="glmath.cpp">
       <Filter>Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Sources\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Sources\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Sources\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Sources\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Sources\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\backends\imgui_impl_sdl.cpp">
+      <Filter>Sources\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Sources\Imgui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
