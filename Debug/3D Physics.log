@@ -1,4 +1,8 @@
-﻿  ModuleRenderer3D.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_math_defines.h(22,1): warning C4005: 'M_PI': redefinición de macro
-C:\Users\Casa\Desktop\NerfedEngine\SDL\include\SDL_stdinc.h(619): message : vea la definición anterior de 'M_PI'
-  3D Physics.vcxproj -> C:\Users\Casa\Desktop\NerfedEngine\Debug\3D Physics - class5.exe
+﻿  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': redefinición de macro
+E:\JuegosUNITY\Practica 2 3D\NerfedEngine\SDL\include\SDL_stdinc.h(619): message : vea la definición anterior de 'M_PI'
+  ModuleInput.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': redefinición de macro
+E:\JuegosUNITY\Practica 2 3D\NerfedEngine\SDL\include\SDL_stdinc.h(619): message : vea la definición anterior de 'M_PI'
+  Generando código...
+  3D Physics.vcxproj -> E:\JuegosUNITY\Practica 2 3D\NerfedEngine\Debug\3D Physics - class5.exe

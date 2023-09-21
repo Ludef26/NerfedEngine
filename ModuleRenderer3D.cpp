@@ -171,7 +171,7 @@ update_status ModuleRenderer3D::PostUpdate(float dt)
 	} ImGui::End();*/
 
 	ImGui::Begin("Test", NULL, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove);
-	//ImGui::Checkbox("Exit", );
+	ImGui::Checkbox("Exit",&App->input->quit);
 	ImGui::End();
 
 	// Rendering
